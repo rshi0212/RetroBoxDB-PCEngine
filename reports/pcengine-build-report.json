@@ -1,0 +1,247 @@
+{
+  "platform": "pcengine",
+  "started_at": "2026-10-06T13:52:19.297374+00:00",
+  "engine_version": "4.0.0",
+  "dat_sets": [
+    {
+      "id": 1,
+      "name": "NEC - PC Engine - TurboGrafx-16 (Parent-Clone)",
+      "version": "20260124-120557"
+    }
+  ],
+  "completed_stages": [
+    "dat_import",
+    "rom_import",
+    "scan_diff_catalog",
+    "nointro",
+    "packages",
+    "retroachievements",
+    "game_names"
+  ],
+  "rom_import": {
+    "directories": [
+      "/mnt/MyShare/No-Intro/NEC - PC Engine - TurboGrafx-16",
+      "/mnt/MyShare/No-Intro/NEC - PC Engine - TurboGrafx-16 (Aftermarket)",
+      "/mnt/MyShare/No-Intro/NEC - PC Engine - TurboGrafx-16 (Private)"
+    ],
+    "families": 366,
+    "family_assignment": {
+      "family_from_dat_or_db": 648,
+      "family_from_title": 3
+    },
+    "errors": [],
+    "groups": 1,
+    "raw_group_bytes": 193930240,
+    "stored_group_bytes": 65361859,
+    "zips": 651,
+    "sidecar_files": 0,
+    "seconds": 148
+  },
+  "scan": {
+    "1": {
+      "match": 509,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 0
+    }
+  },
+  "dat_diff": {},
+  "catalog": {
+    "games": 363,
+    "releases": 509,
+    "old_dat_games_linked": 0,
+    "rom_release_links": 509
+  },
+  "nointro": {
+    "snapshot_id": 1,
+    "version": "unknown",
+    "archives": 510,
+    "files": 714,
+    "files_with_local_payload": 510,
+    "sources": 1704,
+    "dumplog_rows": 510,
+    "dat_links": 509,
+    "archive_release_links": 508,
+    "hardware_assertions": 208,
+    "dumplog_status": {
+      "verified": 292,
+      "trusted_unverified": 162,
+      "unverified": 56
+    },
+    "anomalies": {
+      "file_without_sha256": 66
+    }
+  },
+  "packages": {
+    "packages_by_dat_set": {
+      "1": 509
+    },
+    "errors": []
+  },
+  "retroachievements": {
+    "snapshot_id": 1,
+    "console_id": 8,
+    "fetched_at": "2026-10-06T13:54:55.128213+00:00",
+    "games": 352,
+    "hashes": 469,
+    "games_with_achievements": 142,
+    "hashes_of_games_with_achievements": 237,
+    "local_roms_matched": 148,
+    "ra_games_with_local_rom": 133,
+    "dat_entries_matched": 146,
+    "ra_games_in_any_dat": 132,
+    "hashes_with_achievements_unexplained": 89,
+    "by_category_local": {
+      "Homebrew": 9,
+      "Official": 122,
+      "Unlicensed": 2
+    }
+  },
+  "game_names": {
+    "source_name": "NEC - PC Engine - TurboGrafx-16.csv",
+    "source_sha256": "611d3dca05dea28707ae3a9fe059ce57913a9cecca92ac1c589d4e69afe02774",
+    "normalization_version": "parentheses-whitespace-casefold-v1",
+    "import_id": 1,
+    "matching_version": "game-qualified-title-v1",
+    "rows": 468,
+    "rows_with_chinese": 468,
+    "unique_chinese_names": 339,
+    "normalized_titles": 370,
+    "matched_rows": 460,
+    "matched_rows_with_chinese": 460,
+    "matched_releases": 460,
+    "releases_with_chinese": 460,
+    "matched_games": 319,
+    "matched_roms": 460,
+    "matched_links": 460,
+    "ambiguous_links": 3,
+    "ambiguous_rows": 1,
+    "unmatched_rows": 7,
+    "unresolved_rows": [
+      {
+        "row_number": 2,
+        "name_en": "[BIOS] CD-ROM System (Japan) (En) (v1.0)",
+        "name_cn": "[BIOS] CD-ROM System",
+        "status": "ambiguous"
+      },
+      {
+        "row_number": 443,
+        "name_en": "W-Ring - The Double Rings (Japan) (En)",
+        "name_cn": "宇宙双鹰",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 464,
+        "name_en": "SideArms - Hyper Dyne (Japan) (En)",
+        "name_cn": "绝对合体",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 465,
+        "name_en": "SideArms - Hyper Dyne (Hong Kong) (En) (Unl)",
+        "name_cn": "绝对合体",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 466,
+        "name_en": "Fairytale Dreams of Alice, The (Japan)",
+        "name_cn": "爱丽丝梦游仙境",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 467,
+        "name_en": "Ninja Ryuukenden (Japan) [CHT]",
+        "name_cn": "忍者龙剑传",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 468,
+        "name_en": "Bubblegum Crash! - Knight Sabers 2034 (Japan) [CHS]",
+        "name_cn": "泡泡糖危机 ！ - 塞柏斯骑士2034",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 469,
+        "name_en": "Xevious (Japan) [CHS]",
+        "name_cn": "超级铁板阵",
+        "status": "unmatched"
+      }
+    ],
+    "multiple_translation_keys": [],
+    "matched_rows_by_method": {
+      "exact_title": 458,
+      "qualified_title": 2
+    }
+  },
+  "audit": {
+    "integrity_check": [
+      "ok"
+    ],
+    "foreign_key_errors": [],
+    "objects_checked": 516,
+    "archive_plans_checked": 644,
+    "compression_groups_checked": 1,
+    "historical_zip_objects": 644,
+    "ok": true,
+    "errors": []
+  },
+  "stats": {
+    "counts": {
+      "files": 1817,
+      "objects": 1160,
+      "chunks": 1497,
+      "roms": 513,
+      "dat_sets": 1,
+      "dat_roms": 509,
+      "transformations": 0,
+      "packages": 509,
+      "media": 0
+    },
+    "storage": {
+      "logical_content_bytes": 220813963,
+      "historical_zip_bytes_not_stored": 139284324,
+      "unique_raw_chunk_bytes": 195254411,
+      "stored_chunk_bytes": 65523545,
+      "header_body_recipes": 0,
+      "zip_plans": 644,
+      "file_occurrences": 1817,
+      "catalog_objects": 1160
+    },
+    "dat_coverage": [
+      {
+        "dat_set_id": 1,
+        "status": "matched",
+        "count": 509
+      }
+    ],
+    "codecs": [
+      {
+        "codec": "group",
+        "blocks": 1493,
+        "raw_bytes": 193930240,
+        "stored_bytes": 0
+      },
+      {
+        "codec": "lzma",
+        "blocks": 4,
+        "raw_bytes": 1324171,
+        "stored_bytes": 161686
+      }
+    ],
+    "storage_schema_version": 4,
+    "compression_groups": {
+      "groups": 1,
+      "raw_bytes": 193930240,
+      "stored_bytes": 65361859
+    },
+    "platform": "pcengine",
+    "solid_groups": {
+      "groups": 1,
+      "raw_bytes": 193930240,
+      "stored_bytes": 65361859
+    }
+  },
+  "finished_at": "2026-10-06T13:55:08.951299+00:00",
+  "seconds": 171,
+  "database_bytes": 73826304
+}

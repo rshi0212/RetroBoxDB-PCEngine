@@ -1,0 +1,44 @@
+{
+  "snapshot_id": 1,
+  "console_id": 8,
+  "fetched_at": "2026-10-06T13:54:55.128213+00:00",
+  "ra_games_with_achievements": 138,
+  "status_totals": {
+    "local": 138,
+    "local_other_platform": 0,
+    "dat_only": 0,
+    "nointro_db_only": 0,
+    "unmatched": 0
+  },
+  "by_category": {
+    "Official": {
+      "local": 126
+    },
+    "Unlicensed": {
+      "local": 2
+    },
+    "Homebrew": {
+      "local": 10
+    }
+  },
+  "sibling_databases": [
+    "supergrafx"
+  ],
+  "shared_console_scope": true,
+  "local_roms_with_achievements": 180,
+  "rule": "RA hash = MD5 of the file after a 512-byte copier header when size % 131072 == 512, otherwise of the whole file; exact hash equality only",
+  "local_games_by_source": {
+    "nointro": 5,
+    "nointro,retroachievements": 128,
+    "retroachievements": 5
+  },
+  "retroachievements_collections": {
+    "RA - NEC TurboGrafx-16": {
+      "in_nointro_dat": 141,
+      "ra_hash_unknown": 1,
+      "ra_only": 32
+    }
+  },
+  "collection_files_with_unknown_ra_hash": 1,
+  "missing_by_category": {}
+}
